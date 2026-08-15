@@ -1,0 +1,8 @@
+# Packages required to run the notebook (assignment2_ML.ipynb) and the Streamlit app (app.py)
+streamlit>=1.57.0
+scikit-learn>=1.8.0
+numpy>=2.4.0
+pandas>=2.2.0
+matplotlib>=3.10.0
+seaborn>=0.13.2
+scipy>=1.17.0
