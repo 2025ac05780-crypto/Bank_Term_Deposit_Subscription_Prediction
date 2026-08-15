@@ -43,11 +43,11 @@ highest probability of subscribing, improving campaign efficiency.
 
 *(Replace with your actual repository URL.)*
 
-### Expected Repository Structure
+###  Repository Structure
 
 ```
 <your-repo>/
-├── assignment2_ML.ipynb          # Main notebook: preprocessing, 5 models, 6 metrics
+├── 2025ac05780_assignment2_ML.ipynb          # Main notebook: preprocessing, 5 models, 6 metrics
 ├── app.py                        # Streamlit interactive frontend (deployed app)
 ├── requirements.txt              # Python dependencies for reproducible runs / deployment
 ├── README.md                     # This file
