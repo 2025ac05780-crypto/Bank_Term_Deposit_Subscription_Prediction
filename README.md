@@ -42,7 +42,7 @@ highest probability of subscribing, improving campaign efficiency.
 https://github.com/2025ac05780-crypto/Bank_Term_Deposit_Subscription_Prediction.git
 (2025ac05780-crypto/Bank_Term_Deposit_Subscription_Prediction)
 ###  Repository Structure
-
+```
 Bank_Term_Deposit_Subscription_Prediction/.    
 ├── 2025ac05780_assignment2_ML.ipynb     # Main notebook: preprocessing, 5 models, 6 metrics
 ├── app.py                               # Streamlit interactive frontend (deployed app)
@@ -53,7 +53,7 @@ Bank_Term_Deposit_Subscription_Prediction/.
 └── requirements.txt                     # Python dependencies for reproducible runs / deployment
 
 0 directories, 7 files
-
+```
 ## d. Models Used
 
 The following five classification models were trained on the **same** preprocessed dataset
