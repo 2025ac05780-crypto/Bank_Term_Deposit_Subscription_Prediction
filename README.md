@@ -39,22 +39,20 @@ highest probability of subscribing, improving campaign efficiency.
 
 ## c. GitHub Repository Link
 
-> https://github.com/<your-username>/<your-repo>
-
-*(Replace with your actual repository URL.)*
-
+https://github.com/2025ac05780-crypto/Bank_Term_Deposit_Subscription_Prediction.git
+(2025ac05780-crypto/Bank_Term_Deposit_Subscription_Prediction)
 ###  Repository Structure
 
-```
-<your-repo>/
-├── 2025ac05780_assignment2_ML.ipynb          # Main notebook: preprocessing, 5 models, 6 metrics
-├── app.py                        # Streamlit interactive frontend (deployed app)
-├── requirements.txt              # Python dependencies for reproducible runs / deployment
-├── README.md                     # This file
-├── bank-full_training_data.csv   # Training dataset (45,211 records)
-├── bank_testdata.csv             # Test dataset (4,521 records)
-└── bank-names.txt                # Dataset attribute description
-```
+Bank_Term_Deposit_Subscription_Prediction/.    
+├── 2025ac05780_assignment2_ML.ipynb     # Main notebook: preprocessing, 5 models, 6 metrics
+├── app.py                               # Streamlit interactive frontend (deployed app)
+├── bank-full_training_data.csv          # Training dataset (45,211 records)
+├── bank-names.txt                       # Dataset attribute description
+├── bank_testdata.csv                    # Test dataset (4,521 records)
+├── README.md                            # This file contains summary
+└── requirements.txt                     # Python dependencies for reproducible runs / deployment
+
+0 directories, 7 files
 
 ## d. Models Used
 
@@ -93,9 +91,7 @@ Precision, Recall, F1 Score, and Matthews Correlation Coefficient (MCC)**.
 
 ## e. Live Streamlit App
 
-**Live App Link:** > https://<your-app-name>.streamlit.app
-
-*(Replace with your actual Streamlit Community Cloud URL after deployment. Clicking it opens an interactive frontend where you can enter a client's details and get a subscription prediction.)*
+**Live App Link:** > https://banktermdepositsubscriptionprediction-m6aemk8httkaik5cfdqcwx.streamlit.app
 
 The app ([app.py](app.py)) provides:
 - A **Predict** tab: interactive form to enter client details and choose a model, returning the subscription probability.
@@ -107,13 +103,6 @@ The app ([app.py](app.py)) provides:
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-### How to Deploy on Streamlit Community Cloud
-
-1. Push this repository (including `app.py`, `requirements.txt`, and both CSV data files) to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**, select this repository/branch, and set the **main file path** to `app.py`.
-4. Click **Deploy**. Streamlit installs the packages from `requirements.txt` and launches the interactive app.
 
 **Missing dependencies are the most common cause of deployment failure** – keep `requirements.txt` complete and up to date.
 
